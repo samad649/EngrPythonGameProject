@@ -21,7 +21,7 @@ def pattern(buttonFont,frame):
     #----mainmenu button----------------#
     menuButton(frame1).place(relx=.93,rely=.025)
     #------------------------------------#
-    txt = 'We apologize for the inconvenience,\n but this game must be opened separately.\nGo back to editor \nand run the DavidVsGoliath.py file'
+    txt = 'We apologize for the inconvenience,\n but this game must be opened separately.'
     pvp = Label(frame1,text=txt,font=buttonFont,bg='#0F131E',fg='#23E1FF')
     pvp.place(relx=0,rely=.2)
     
